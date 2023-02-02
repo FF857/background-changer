@@ -7,14 +7,14 @@ function change_background(){
     if (dark_theme == false){
 
         dark_theme = true;
-        document.body.style.background = "#3b3b3b";
-        button.style.background = "white";
-        button.style.color = "#3b3b3b";
+        document.body.style.background = "#202020";
+        button.style.background = "#e1e1e1";
+        button.style.color = "#202020";
     }
     else {
         dark_theme = false;
-        document.body.style.background = "white";
-        button.style.background = "#3b3b3b"
-        button.style.color = "white";
+        document.body.style.background = "#e1e1e1";
+        button.style.background = "#202020"
+        button.style.color = "#e1e1e1";
     }
 }
